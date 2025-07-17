@@ -1,0 +1,202 @@
+{
+  "www.google.com": {
+    "url": "www.google.com",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 1,
+      "undetected": 0,
+      "details": {
+        "url_length": 14,
+        "keyword_count": 0,
+        "suspicious_tld": false,
+        "suspicious_chars": 0,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "1997-09-15",
+      "expiration_date": "2028-09-14",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "Low",
+      "risk_probability": 0
+    },
+    "reasoning": [
+      "The domain is well-established (10164 days old), increasing its trustworthiness."
+    ],
+    "timestamp": "2025-07-14T22:29:36.614468"
+  },
+  "login.verify-secure.xyz": {
+    "url": "http://login.verify-secure.xyz",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 1,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 0,
+      "details": {
+        "url_length": 30,
+        "keyword_count": 3,
+        "suspicious_tld": true,
+        "suspicious_chars": 1,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "Unknown",
+      "creation_date": "Unknown",
+      "expiration_date": "Unknown",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "High",
+      "risk_probability": 100.0
+    },
+    "reasoning": [
+      "The URL contains 3 suspicious keywords (e.g., 'login', 'verify'), often used in phishing.",
+      "The top-level domain is suspicious (e.g., .xyz, .top), which is often associated with malicious sites."
+    ],
+    "timestamp": "2025-07-14T22:30:27.158827"
+  },
+  "www.testingmcafeesites.com": {
+    "url": "http://www.testingmcafeesites.com/",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 1,
+      "undetected": 0,
+      "details": {
+        "url_length": 34,
+        "keyword_count": 0,
+        "suspicious_tld": false,
+        "suspicious_chars": 0,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "CSC Corporate Domains, Inc.",
+      "creation_date": "2010-11-18",
+      "expiration_date": "2025-11-18",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "Low",
+      "risk_probability": 0
+    },
+    "reasoning": [
+      "The domain is well-established (5352 days old), increasing its trustworthiness."
+    ],
+    "timestamp": "2025-07-14T22:33:00.332639"
+  },
+  "vulnweb.com": {
+    "url": "http://vulnweb.com/",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 1,
+      "undetected": 0,
+      "details": {
+        "url_length": 19,
+        "keyword_count": 0,
+        "suspicious_tld": false,
+        "suspicious_chars": 0,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "EuroDNS S.A.",
+      "creation_date": "2010-06-14",
+      "expiration_date": "2026-06-14",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "Low",
+      "risk_probability": 0
+    },
+    "reasoning": [
+      "The domain is well-established (5509 days old), increasing its trustworthiness."
+    ],
+    "timestamp": "2025-07-14T22:33:52.997780"
+  },
+  "www.phishing.xyz": {
+    "url": "www.phishing.xyz",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 1,
+      "undetected": 0,
+      "details": {
+        "url_length": 16,
+        "keyword_count": 0,
+        "suspicious_tld": true,
+        "suspicious_chars": 0,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "West263 International Limited",
+      "creation_date": "2020-05-25",
+      "expiration_date": "2027-05-25",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "Low",
+      "risk_probability": 0
+    },
+    "reasoning": [
+      "The top-level domain is suspicious (e.g., .xyz, .top), which is often associated with malicious sites.",
+      "The domain is well-established (1876 days old), increasing its trustworthiness."
+    ],
+    "timestamp": "2025-07-14T22:36:08.430547"
+  },
+  "phish.example.com": {
+    "url": "phish.example.com",
+    "analysis": {
+      "source": "Heuristic Analysis",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 1,
+      "undetected": 0,
+      "details": {
+        "url_length": 17,
+        "keyword_count": 0,
+        "suspicious_tld": false,
+        "suspicious_chars": 0,
+        "is_ip_address": false
+      }
+    },
+    "osint": {
+      "registrar": "RESERVED-Internet Assigned Numbers Authority",
+      "creation_date": "1995-08-14",
+      "expiration_date": "2025-08-13",
+      "source": "Local Blocklist",
+      "malicious": false,
+      "reason": "Domain not in blocklist"
+    },
+    "risk": {
+      "risk_level": "Low",
+      "risk_probability": 0
+    },
+    "reasoning": [
+      "The domain is well-established (10927 days old), increasing its trustworthiness."
+    ],
+    "timestamp": "2025-07-14T22:37:27.884870"
+  }
+}
